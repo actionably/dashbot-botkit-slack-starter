@@ -1,0 +1,19 @@
+{
+  "name": "Simple Slack Bot",
+  "description": "A starting point for building custom Slack applications",
+  "repository": "https://github.com/actionably/dashbot-botkit-slack-starter",
+  "keywords": ["node", "bots", "slack", "botkit"],
+  "website": "https://www.dashbot.io/",
+  "success_url": "/",
+  "env": {
+    "clientId": {
+      "description": "Client ID provided by Slack"
+    },
+    "clientSecret": {
+      "description": "Client Secret provided by Slack"
+    },
+    "DASHBOT_API_KEY": {
+      "description": "Dashbot API Key"
+    }
+  }
+}
